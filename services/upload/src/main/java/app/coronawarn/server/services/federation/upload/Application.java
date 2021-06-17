@@ -19,6 +19,10 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.core.env.Environment;
 import org.springframework.data.jdbc.repository.config.EnableJdbcRepositories;
 
+
+
+
+
 /**
  * Service responsible for creating batches of diagnosis keys and uploading them to the Federation Gateway conforming to
  * the EU specification. Its source of data is a dedicated table where diagnosis keys are replicated during the
